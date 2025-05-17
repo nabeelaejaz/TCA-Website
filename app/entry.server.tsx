@@ -39,6 +39,7 @@ export default function handleRequest(
       );
 }
 
+
 function handleBotRequest(
   request: Request,
   responseStatusCode: number,
