@@ -19,11 +19,11 @@ export default function Index() {
           <img src="woman-stands.jpg" alt="Woman Stands with her arm folded in a store" />
         </div>
         <div>
-          <p className="ibm-plex-serif-semibold text-[60px] text-center mt-12 leading-[72px]">Pakistan's Premium Shopify App<br></br>Development & Design Agency</p>
+          <p className="ibm-plex-serif-semibold text-[52px] text-center mt-12 leading-[66px]">Pakistan's Premium Shopify App<br></br>Development & Design Agency</p>
         </div>
 
         <div className="flex mt-20 ml-8">
-          <div className="ibm-plex-sans-regular text-[28px] w-[50%] mr-4">
+          <div className="ibm-plex-sans-regular text-[24px] w-[50%] mr-4 leading-[36px]">
             We craft exceptional commerce through thoughtful design and user experience (UX), supporting both new Brand launches as well as existing website optimisation.
 
             <p className="ibm-plex-serif-semibold text-[32px] mt-8 mb-4">Customer Journey Experience</p>
@@ -33,7 +33,81 @@ export default function Index() {
           <div className="w-[50%] ml-4">
             <img src="heart.jpg" alt="" />
           </div>
+        </div>
 
+        <div className="mt-16 ml-8">
+          <img src="store-scanner.jpg" alt="Store Scanner" />
+        </div>
+
+        <div className="ibm-plex-serif-semibold text-[52px] text-center mt-12">
+          Meet Your Certified Shopify Partner
+          <p className="ibm-plex-sans-regular text-[36px]">Our Development Services Include:</p>
+        </div>
+
+        <div className="flex mt-16 ml-8">
+          <div className="ibm-plex-sans-regular text-[24px] w-[50%] mr-4 leading-[36px]">
+            <p className="ibm-plex-serif-semibold text-[32px] mb-4">Shopify Store Set-up</p>
+
+            Our experts will build your Shopify store from the scratch and make it up and running in no time. Initial store set-up includes creating the storefront with unique designs, developing product pages and listing products, adding initial layouts, and Shopify cart customisation.
+          </div>
+          <div className="w-[50%] ml-4">
+            <img src="shopify-setup.jpg" alt="Shopify Setup Displayed on Laptop" />
+          </div>
+        </div>
+
+        <div className="flex mt-16 ml-8">
+          <div className="w-[50%] mr-4">
+            <img src="alesia.jpg" alt="Shopify Setup Displayed on Laptop" />
+          </div>
+          <div className="ibm-plex-sans-regular text-[24px] w-[50%] ml-4 leading-[36px]">
+            <p className="ibm-plex-serif-semibold text-[32px] mb-4">Shopify Theme Customisation</p>
+
+            Your Shopify store’s theme matters a lot as it makes the first impression. Our team will add a customised theme to your Shopify store as per your product niche so that your brand can stand out from the competition. Our expert designers will make your store visually appealing in order to ensure a great customer experience and ultimately lower the bounce rate.
+          </div>         
+        </div>
+
+        <div className="flex mt-16 ml-8">
+          <div className="ibm-plex-sans-regular text-[24px] w-[50%] mr-4 leading-[36px]">
+            <p className="ibm-plex-serif-semibold text-[32px] mb-4">Shopify Migration Services</p>
+
+            Shopify facilitates its customers to carry their online store data from anywhere on Shopify. If you started your online journey at some other business platform but now want to shift to Shopify, we are here to do it for you. Our developers have migrated a countless number of stores onto Shopify without any hassle. Be it Wordpress, Magento, or any other site, we will safely and smoothly migrate your online store to Shopify in a short time span.
+          </div>
+          <div className="w-[50%] ml-4">
+            <img src="teamwork.jpg" alt="Shopify Setup Displayed on Laptop" />
+          </div>
+        </div>
+
+        <div className="flex mt-16 ml-8">
+          <div className="w-[50%] mr-4">
+            <img src="instore.jpg" alt="Shopify Setup Displayed on Laptop" />
+          </div>
+          <div className="ibm-plex-sans-regular text-[24px] w-[50%] ml-4 leading-[36px]">
+            <p className="ibm-plex-serif-semibold text-[32px] mb-4">Shopify Integration Services</p>
+
+            We will integrate any third-party feature of your choice into your Shopify store in order to add custom functionality. Our team of developers aims to add maximum value to your Shopify store in order to make it versatile and fully functional.
+          </div>         
+        </div>
+
+        <div className="flex mt-16 ml-8">
+          <div className="ibm-plex-sans-regular text-[24px] w-[50%] mr-4 leading-[36px]">
+            <p className="ibm-plex-serif-semibold text-[32px] mb-4">Shopify SEO</p>
+
+            SEO is an integral part of any website development plan. We have SEO experts who will do thorough market research to devise an efficient SEO strategy for your Shopify store. Our SEO optimisation techniques hold the potential to take your store to new heights of success in terms of conversion and sales.
+          </div>
+          <div className="w-[50%] ml-4">
+            <img src="ShopifySEO.jpg" alt="Woman Searching on her mobile" />
+          </div>
+        </div>
+
+        <div className="flex mt-16 ml-8">
+          <div className="w-[50%] mr-4">
+            <img src="production.jpg" alt="Shopify in Production" />
+          </div>
+          <div className="ibm-plex-sans-regular text-[24px] w-[50%] ml-4 leading-[36px]">
+            <p className="ibm-plex-serif-semibold text-[32px] mb-4">Updates and Maintenance</p>
+
+            A sustainable online store needs continuous improvements in order to stay ahead of the competition. Our team will not only manage your Shopify store but will timely update it for the betterment and ensure a seamless user experience.
+          </div>         
         </div>
 
     </div>
