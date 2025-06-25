@@ -1,4 +1,4 @@
-# Welcome to Remix!
+# Welcome to TCA!
 
 - 📖 [Remix docs](https://remix.run/docs)
 
