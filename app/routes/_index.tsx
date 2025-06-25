@@ -12,10 +12,10 @@ export const meta: MetaFunction = () => {
 export default function Index() {
   return (
     <div className="w-[1200px] m-auto">
-        <div className="ml-8 w-40 h-20">
+        <div className="ml-8 w-44 h-20">
           <img src="tcalogo2025.svg" alt="The Creative Authority" />
         </div>
-        <div className="ml-8 mt-12">
+        <div className="ml-8 mt-16">
           <img src="woman-stands.jpg" alt="Woman Stands with her arm folded in a store" />
         </div>
         <div>
@@ -110,7 +110,29 @@ export default function Index() {
           </div>         
         </div>
 
-        test
+        <div className="mt-20 ml-8">
+          <img src="tap-and-beep.jpg" alt="Tap and Beep" />
+        </div>
+
+        <div className="pl-24 pr-24 pt-16 text-[36px] ibm-plex-serif-regular leading-[52px]">
+          For e-commerce business owners, staying competitive goes beyond offering excellent products; it’s about delivering a superior shopping experience. Shopify users know that the key to enhancing their store lies in combining the right apps with custom Shopify theme development. These integration can elevate your store to the next level, improving customer usability and boosting your conversion rate.
+        </div>
+
+        <div className="mt-12 pl-24 pr-48 ibm-plex-sans-medium text-[44px] leading-[52px]">
+          We build unified commerce solutions for every channel.
+        </div>
+
+        <div className="flex mt-24 justify-center">
+          <div className="w-[350px] mr-8">
+            <img src="directpurchase.jpg" alt="" />
+            <p className="ibm-plex-sans-medium text-[28px] text-center mt-4">D2C</p>
+          </div>
+          <div className="w-[350px] ml-8">
+            <img src="customersupport.jpg" alt="" />
+            <p className="ibm-plex-sans-medium text-[28px] text-center mt-4">B2B</p>
+          </div>
+
+        </div>
 
     </div>
   );
