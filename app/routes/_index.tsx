@@ -134,7 +134,13 @@ export default function Index() {
         </div>
 
         <div className="mt-12 mb-12 justify-center flex">
-          <button className="bg-blue-800 text-white p-[50px] w-[460px] h-[240px]"><p className="mt-[-92px] ml-[-84px] ibm-plex-sans-semibold text-[38px]">GOT A PROJECT?</p><p className="ml-[-106px] mt-[-6px] ibm-plex-sans-regular text-[26px]">Speak With Our Experts</p><img className="text-white" src="arrow--right.svg" alt="Contact Us" /></button>
+          <button className="bg-blue-800 text-white p-[50px] w-[460px] h-[240px]"><p className="mt-[-34px] ml-[-84px] ibm-plex-sans-semibold text-[38px]">GOT A PROJECT?</p><p className="ml-[-106px] mt-[-6px] ibm-plex-sans-regular text-[26px]">Speak With Our Experts</p><img className="size-14 mt-16 ml-80" src="arrow--right.svg" alt="Contact Us" /></button>
+        </div>
+
+        <div className="mt-20 mb-20 flex ibm-plex-serif-semibold text-[18px]">
+          <img className="w-[80px]" src="dotTCA.svg" alt="The Creative Authority" />
+          <p className="ml-12 mt-1">Careers</p>
+          <p className="ml-12 mt-1">Contact Us</p>
         </div>
 
     </div>
