@@ -11,19 +11,19 @@ export const meta: MetaFunction = () => {
 
 export default function Index() {
   return (
-    <div className="lg:w-[1200px] md:w-[750px] m-auto">
-        <div className="lg:ml-8 lg:w-48 md:w-40 lg:h-20 md:h-12">
+    <div className="lg:w-[1200px] md:w-[750px] w-[320px] m-auto">
+        <div className="lg:ml-8 lg:w-48 md:w-40 w-32 lg:h-20 md:h-12 h-6">
           <img src="tcalogo2025.svg" alt="The Creative Authority" />
         </div>
         <div className="lg:ml-8 mt-20">
           <img src="woman-stands.jpg" alt="Woman Stands with her arm folded in a store" />
         </div>
         <div>
-          <p className="ibm-plex-serif-semibold lg:text-[52px] md:text-[42px] text-center lg:mt-16 md:mt-12 lg:leading-[66px] md:leading-[54px]">Pakistan's Premium Shopify App<br></br>Development & Design Agency</p>
+          <p className="ibm-plex-serif-semibold lg:text-[52px] md:text-[42px] text-[20px] text-center lg:mt-16 md:mt-12 mt-6 lg:leading-[66px] md:leading-[54px]">Pakistan's Premium Shopify App<br></br>Development & Design Agency</p>
         </div>
 
-        <div className="flex lg:mt-20 md:mt-16 lg:ml-8">
-          <div className="ibm-plex-sans-regular text-[24px] w-[50%] mr-4 lg:leading-[36px] md:leading-[32px]">
+        <div className="md:flex lg:mt-20 md:mt-16 mt-6 lg:ml-8">
+          <div className="ibm-plex-sans-regular md:text-[24px] text-[18px] md:w-[50%] mr-4 lg:leading-[36px] md:leading-[32px]">
             We craft exceptional commerce through thoughtful design and user experience (UX), supporting both new Brand launches as well as existing website optimisation.
 
             <p className="ibm-plex-serif-semibold text-[32px] mt-8 mb-4 md:leading-[36px]">Customer Journey Experience</p>
