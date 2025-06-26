@@ -11,22 +11,22 @@ export const meta: MetaFunction = () => {
 
 export default function Index() {
   return (
-    <div className="w-[1200px] m-auto">
-        <div className="ml-8 w-48 h-20">
+    <div className="lg:w-[1200px] md:w-[750px] m-auto">
+        <div className="lg:ml-8 lg:w-48 md:w-40 lg:h-20 md:h-12">
           <img src="tcalogo2025.svg" alt="The Creative Authority" />
         </div>
-        <div className="ml-8 mt-20">
+        <div className="lg:ml-8 mt-20">
           <img src="woman-stands.jpg" alt="Woman Stands with her arm folded in a store" />
         </div>
         <div>
-          <p className="ibm-plex-serif-semibold text-[52px] text-center mt-16 leading-[66px]">Pakistan's Premium Shopify App<br></br>Development & Design Agency</p>
+          <p className="ibm-plex-serif-semibold lg:text-[52px] md:text-[42px] text-center lg:mt-16 md:mt-12 lg:leading-[66px] md:leading-[54px]">Pakistan's Premium Shopify App<br></br>Development & Design Agency</p>
         </div>
 
-        <div className="flex mt-20 ml-8">
-          <div className="ibm-plex-sans-regular text-[24px] w-[50%] mr-4 leading-[36px]">
+        <div className="flex lg:mt-20 md:mt-16 lg:ml-8">
+          <div className="ibm-plex-sans-regular text-[24px] w-[50%] mr-4 lg:leading-[36px] md:leading-[32px]">
             We craft exceptional commerce through thoughtful design and user experience (UX), supporting both new Brand launches as well as existing website optimisation.
 
-            <p className="ibm-plex-serif-semibold text-[32px] mt-8 mb-4">Customer Journey Experience</p>
+            <p className="ibm-plex-serif-semibold text-[32px] mt-8 mb-4 md:leading-[36px]">Customer Journey Experience</p>
 
             We specialise in crafting compelling customer journey experiences for your website, designed to build credibility and drive conversions. By focusing on intuitive navigation and personalised touchpoints, we ensure that every interaction with your brand is memorable and effective, leading to increased trust and successful outcomes.
           </div>
@@ -35,17 +35,17 @@ export default function Index() {
           </div>
         </div>
 
-        <div className="mt-32 ml-8">
+        <div className="lg:mt-32 md:mt-16 lg:ml-8">
           <img src="store-scanner.jpg" alt="Store Scanner" />
         </div>
 
-        <div className="ibm-plex-serif-semibold text-[52px] text-center mt-20">
+        <div className="ibm-plex-serif-semibold lg:text-[52px] md:text-[42px] text-center lg:mt-20 md:mt-16">
           Meet Your Certified Shopify Partner
-          <p className="ibm-plex-sans-regular text-[36px]">Our Development Services Include:</p>
+          <p className="ibm-plex-sans-regular lg:text-[36px] md:text-[32px]">Our Development Services Include:</p>
         </div>
 
-        <div className="flex mt-28 ml-8">
-          <div className="ibm-plex-sans-regular text-[24px] w-[50%] mr-4 leading-[36px]">
+        <div className="flex lg:mt-28 md:mt-24 lg:ml-8">
+          <div className="ibm-plex-sans-regular text-[24px] w-[50%] mr-4 lg:leading-[36px] md:leading-[32px]">
             <p className="ibm-plex-serif-semibold text-[32px] mb-4">Shopify Store Set-up</p>
 
             Our experts will build your Shopify store from the scratch and make it up and running in no time. Initial store set-up includes creating the storefront with unique designs, developing product pages and listing products, adding initial layouts, and Shopify cart customisation.
@@ -55,20 +55,20 @@ export default function Index() {
           </div>
         </div>
 
-        <div className="flex mt-28 ml-8">
+        <div className="flex lg:mt-28 md:mt-20 lg:ml-8">
           <div className="w-[50%] mr-4">
             <img src="alesia.jpg" alt="Shopify Setup Displayed on Laptop" />
           </div>
-          <div className="ibm-plex-sans-regular text-[24px] w-[50%] ml-4 leading-[36px]">
-            <p className="ibm-plex-serif-semibold text-[32px] mb-4">Shopify Theme Customisation</p>
+          <div className="ibm-plex-sans-regular text-[24px] w-[50%] ml-4 lg:leading-[36px] md:leading-[32px]">
+            <p className="ibm-plex-serif-semibold text-[32px] mb-4 md:leading-[36px]">Shopify Theme Customisation</p>
 
             Your Shopify store’s theme matters a lot as it makes the first impression. Our team will add a customised theme to your Shopify store as per your product niche so that your brand can stand out from the competition. Our expert designers will make your store visually appealing in order to ensure a great customer experience and ultimately lower the bounce rate.
           </div>         
         </div>
 
-        <div className="flex mt-28 ml-8">
-          <div className="ibm-plex-sans-regular text-[24px] w-[50%] mr-4 leading-[36px]">
-            <p className="ibm-plex-serif-semibold text-[32px] mb-4">Shopify Migration Services</p>
+        <div className="flex lg:mt-28 md:mt-24 lg:ml-8">
+          <div className="ibm-plex-sans-regular text-[24px] w-[50%] mr-4 lg:leading-[36px] md:leading-[32px]">
+            <p className="ibm-plex-serif-semibold text-[32px] mb-4 md:leading-[36px]">Shopify Migration Services</p>
 
             Shopify facilitates its customers to carry their online store data from anywhere on Shopify. If you started your online journey at some other business platform but now want to shift to Shopify, we are here to do it for you. Our developers have migrated a countless number of stores onto Shopify without any hassle. Be it Wordpress, Magento, or any other site, we will safely and smoothly migrate your online store to Shopify in a short time span.
           </div>
@@ -77,19 +77,19 @@ export default function Index() {
           </div>
         </div>
 
-        <div className="flex mt-28 ml-8">
+        <div className="flex lg:mt-28 md:mt-24 lg:ml-8">
           <div className="w-[50%] mr-4">
             <img src="instore.jpg" alt="Shopify Setup Displayed on Laptop" />
           </div>
-          <div className="ibm-plex-sans-regular text-[24px] w-[50%] ml-4 leading-[36px]">
-            <p className="ibm-plex-serif-semibold text-[32px] mb-4">Shopify Integration Services</p>
+          <div className="ibm-plex-sans-regular text-[24px] w-[50%] ml-4 lg:leading-[36px] md:leading-[32px]">
+            <p className="ibm-plex-serif-semibold text-[32px] mb-4 md:leading-[36px]">Shopify Integration Services</p>
 
             We will integrate any third-party feature of your choice into your Shopify store in order to add custom functionality. Our team of developers aims to add maximum value to your Shopify store in order to make it versatile and fully functional.
           </div>         
         </div>
 
-        <div className="flex mt-28 ml-8">
-          <div className="ibm-plex-sans-regular text-[24px] w-[50%] mr-4 leading-[36px]">
+        <div className="flex lg:mt-28 md:mt-24 lg:ml-8">
+          <div className="ibm-plex-sans-regular text-[24px] w-[50%] mr-4 lg:leading-[36px] md:leading-[32px]">
             <p className="ibm-plex-serif-semibold text-[32px] mb-4">Shopify SEO</p>
 
             SEO is an integral part of any website development plan. We have SEO experts who will do thorough market research to devise an efficient SEO strategy for your Shopify store. Our SEO optimisation techniques hold the potential to take your store to new heights of success in terms of conversion and sales.
@@ -99,36 +99,36 @@ export default function Index() {
           </div>
         </div>
 
-        <div className="flex mt-28 ml-8">
+        <div className="flex lg:mt-28 md:mt-24 lg:ml-8">
           <div className="w-[50%] mr-4">
             <img src="production.jpg" alt="Shopify in Production" />
           </div>
-          <div className="ibm-plex-sans-regular text-[24px] w-[50%] ml-4 leading-[36px]">
-            <p className="ibm-plex-serif-semibold text-[32px] mb-4">Updates and Maintenance</p>
+          <div className="ibm-plex-sans-regular text-[24px] w-[50%] ml-4 lg:leading-[36px] md:leading-[32px]">
+            <p className="ibm-plex-serif-semibold text-[32px] mb-4 md:leading-[36px]">Updates and Maintenance</p>
 
             A sustainable online store needs continuous improvements in order to stay ahead of the competition. Our team will not only manage your Shopify store but will timely update it for the betterment and ensure a seamless user experience.
           </div>         
         </div>
 
-        <div className="mt-36 ml-8">
+        <div className="lg:mt-36 md:mt-28 lg:ml-8">
           <img src="tap-and-beep.jpg" alt="Tap and Beep" />
         </div>
 
-        <div className="pl-24 pr-24 pt-16 text-[32px] ibm-plex-serif-regular leading-[52px]">
+        <div className="pl-24 pr-24 pt-16 text-[32px] ibm-plex-serif-regular lg:leading-[52px]">
           For e-commerce business owners, staying competitive goes beyond offering excellent products; it’s about delivering a superior shopping experience. Shopify users know that the key to enhancing their store lies in combining the right apps with custom Shopify theme development. These integration can elevate your store to the next level, improving customer usability and boosting your conversion rate.
         </div>
 
-        <div className="mt-16 pl-24 pr-48 ibm-plex-sans-medium text-[32px] leading-[52px] text-center">
+        <div className="mt-16 lg:pl-24 lg:pr-48 md:pl-20 md:pr-32 ibm-plex-sans-medium text-[32px] lg:leading-[52px] text-center">
           We build unified commerce solutions for every channel.
         </div>
 
         <div className="flex mt-12 justify-center">
-          <div className="w-[350px] mr-8">
-            <img src="directpurchase.jpg" alt="" />
+          <div className="lg:w-[350px] md:w-[260px] mr-8">
+            <img src="directpurchase.jpg" alt="Online Transaction" />
             <p className="ibm-plex-sans-medium text-[28px] text-center mt-4">D2C</p>
           </div>
-          <div className="w-[350px] ml-8">
-            <img src="customersupport.jpg" alt="" />
+          <div className="lg:w-[350px] md:w-[260px] ml-8">
+            <img src="customersupport.jpg" alt="Customer Support" />
             <p className="ibm-plex-sans-medium text-[28px] text-center mt-4">B2B</p>
           </div>
         </div>
