@@ -12,10 +12,10 @@ export const meta: MetaFunction = () => {
 export default function Index() {
   return (
     <div className="w-[1200px] m-auto">
-        <div className="ml-8 w-44 h-20">
+        <div className="ml-8 w-48 h-20">
           <img src="tcalogo2025.svg" alt="The Creative Authority" />
         </div>
-        <div className="ml-8 mt-16">
+        <div className="ml-8 mt-20">
           <img src="woman-stands.jpg" alt="Woman Stands with her arm folded in a store" />
         </div>
         <div>
@@ -35,7 +35,7 @@ export default function Index() {
           </div>
         </div>
 
-        <div className="mt-16 ml-8">
+        <div className="mt-24 ml-8">
           <img src="store-scanner.jpg" alt="Store Scanner" />
         </div>
 
@@ -44,7 +44,7 @@ export default function Index() {
           <p className="ibm-plex-sans-regular text-[36px]">Our Development Services Include:</p>
         </div>
 
-        <div className="flex mt-16 ml-8">
+        <div className="flex mt-20 ml-8">
           <div className="ibm-plex-sans-regular text-[24px] w-[50%] mr-4 leading-[36px]">
             <p className="ibm-plex-serif-semibold text-[32px] mb-4">Shopify Store Set-up</p>
 
@@ -55,7 +55,7 @@ export default function Index() {
           </div>
         </div>
 
-        <div className="flex mt-16 ml-8">
+        <div className="flex mt-20 ml-8">
           <div className="w-[50%] mr-4">
             <img src="alesia.jpg" alt="Shopify Setup Displayed on Laptop" />
           </div>
@@ -66,7 +66,7 @@ export default function Index() {
           </div>         
         </div>
 
-        <div className="flex mt-16 ml-8">
+        <div className="flex mt-20 ml-8">
           <div className="ibm-plex-sans-regular text-[24px] w-[50%] mr-4 leading-[36px]">
             <p className="ibm-plex-serif-semibold text-[32px] mb-4">Shopify Migration Services</p>
 
@@ -77,7 +77,7 @@ export default function Index() {
           </div>
         </div>
 
-        <div className="flex mt-16 ml-8">
+        <div className="flex mt-20 ml-8">
           <div className="w-[50%] mr-4">
             <img src="instore.jpg" alt="Shopify Setup Displayed on Laptop" />
           </div>
@@ -88,7 +88,7 @@ export default function Index() {
           </div>         
         </div>
 
-        <div className="flex mt-16 ml-8">
+        <div className="flex mt-20 ml-8">
           <div className="ibm-plex-sans-regular text-[24px] w-[50%] mr-4 leading-[36px]">
             <p className="ibm-plex-serif-semibold text-[32px] mb-4">Shopify SEO</p>
 
@@ -99,7 +99,7 @@ export default function Index() {
           </div>
         </div>
 
-        <div className="flex mt-16 ml-8">
+        <div className="flex mt-20 ml-8">
           <div className="w-[50%] mr-4">
             <img src="production.jpg" alt="Shopify in Production" />
           </div>
@@ -114,15 +114,15 @@ export default function Index() {
           <img src="tap-and-beep.jpg" alt="Tap and Beep" />
         </div>
 
-        <div className="pl-24 pr-24 pt-16 text-[36px] ibm-plex-serif-regular leading-[52px]">
+        <div className="pl-24 pr-24 pt-16 text-[32px] ibm-plex-serif-regular leading-[52px]">
           For e-commerce business owners, staying competitive goes beyond offering excellent products; it’s about delivering a superior shopping experience. Shopify users know that the key to enhancing their store lies in combining the right apps with custom Shopify theme development. These integration can elevate your store to the next level, improving customer usability and boosting your conversion rate.
         </div>
 
-        <div className="mt-12 pl-24 pr-48 ibm-plex-sans-medium text-[44px] leading-[52px]">
+        <div className="mt-16 pl-24 pr-48 ibm-plex-sans-medium text-[32px] leading-[52px] text-center">
           We build unified commerce solutions for every channel.
         </div>
 
-        <div className="flex mt-24 justify-center">
+        <div className="flex mt-12 justify-center">
           <div className="w-[350px] mr-8">
             <img src="directpurchase.jpg" alt="" />
             <p className="ibm-plex-sans-medium text-[28px] text-center mt-4">D2C</p>
@@ -131,7 +131,10 @@ export default function Index() {
             <img src="customersupport.jpg" alt="" />
             <p className="ibm-plex-sans-medium text-[28px] text-center mt-4">B2B</p>
           </div>
+        </div>
 
+        <div className="mt-12 mb-12 justify-center flex">
+          <button className="bg-blue-800 text-white p-[50px] w-[460px] h-[240px]"><p className="mt-[-92px] ml-[-84px] ibm-plex-sans-semibold text-[38px]">GOT A PROJECT?</p><p className="ml-[-106px] mt-[-6px] ibm-plex-sans-regular text-[26px]">Speak With Our Experts</p><img className="text-white" src="arrow--right.svg" alt="Contact Us" /></button>
         </div>
 
     </div>
