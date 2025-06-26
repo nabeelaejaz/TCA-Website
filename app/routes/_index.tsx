@@ -19,7 +19,7 @@ export default function Index() {
           <img src="woman-stands.jpg" alt="Woman Stands with her arm folded in a store" />
         </div>
         <div>
-          <p className="ibm-plex-serif-semibold text-[52px] text-center mt-12 leading-[66px]">Pakistan's Premium Shopify App<br></br>Development & Design Agency</p>
+          <p className="ibm-plex-serif-semibold text-[52px] text-center mt-16 leading-[66px]">Pakistan's Premium Shopify App<br></br>Development & Design Agency</p>
         </div>
 
         <div className="flex mt-20 ml-8">
@@ -35,16 +35,16 @@ export default function Index() {
           </div>
         </div>
 
-        <div className="mt-24 ml-8">
+        <div className="mt-32 ml-8">
           <img src="store-scanner.jpg" alt="Store Scanner" />
         </div>
 
-        <div className="ibm-plex-serif-semibold text-[52px] text-center mt-12">
+        <div className="ibm-plex-serif-semibold text-[52px] text-center mt-20">
           Meet Your Certified Shopify Partner
           <p className="ibm-plex-sans-regular text-[36px]">Our Development Services Include:</p>
         </div>
 
-        <div className="flex mt-20 ml-8">
+        <div className="flex mt-28 ml-8">
           <div className="ibm-plex-sans-regular text-[24px] w-[50%] mr-4 leading-[36px]">
             <p className="ibm-plex-serif-semibold text-[32px] mb-4">Shopify Store Set-up</p>
 
@@ -55,7 +55,7 @@ export default function Index() {
           </div>
         </div>
 
-        <div className="flex mt-20 ml-8">
+        <div className="flex mt-28 ml-8">
           <div className="w-[50%] mr-4">
             <img src="alesia.jpg" alt="Shopify Setup Displayed on Laptop" />
           </div>
@@ -66,7 +66,7 @@ export default function Index() {
           </div>         
         </div>
 
-        <div className="flex mt-20 ml-8">
+        <div className="flex mt-28 ml-8">
           <div className="ibm-plex-sans-regular text-[24px] w-[50%] mr-4 leading-[36px]">
             <p className="ibm-plex-serif-semibold text-[32px] mb-4">Shopify Migration Services</p>
 
@@ -77,7 +77,7 @@ export default function Index() {
           </div>
         </div>
 
-        <div className="flex mt-20 ml-8">
+        <div className="flex mt-28 ml-8">
           <div className="w-[50%] mr-4">
             <img src="instore.jpg" alt="Shopify Setup Displayed on Laptop" />
           </div>
@@ -88,7 +88,7 @@ export default function Index() {
           </div>         
         </div>
 
-        <div className="flex mt-20 ml-8">
+        <div className="flex mt-28 ml-8">
           <div className="ibm-plex-sans-regular text-[24px] w-[50%] mr-4 leading-[36px]">
             <p className="ibm-plex-serif-semibold text-[32px] mb-4">Shopify SEO</p>
 
@@ -99,7 +99,7 @@ export default function Index() {
           </div>
         </div>
 
-        <div className="flex mt-20 ml-8">
+        <div className="flex mt-28 ml-8">
           <div className="w-[50%] mr-4">
             <img src="production.jpg" alt="Shopify in Production" />
           </div>
@@ -110,7 +110,7 @@ export default function Index() {
           </div>         
         </div>
 
-        <div className="mt-20 ml-8">
+        <div className="mt-36 ml-8">
           <img src="tap-and-beep.jpg" alt="Tap and Beep" />
         </div>
 
@@ -133,11 +133,11 @@ export default function Index() {
           </div>
         </div>
 
-        <div className="mt-12 mb-12 justify-center flex">
+        <div className="mt-20 mb-12 justify-center flex">
           <button className="bg-blue-800 text-white p-[50px] w-[460px] h-[240px]"><p className="mt-[-34px] ml-[-84px] ibm-plex-sans-semibold text-[38px]">GOT A PROJECT?</p><p className="ml-[-106px] mt-[-6px] ibm-plex-sans-regular text-[26px]">Speak With Our Experts</p><img className="size-14 mt-16 ml-80" src="arrow--right.svg" alt="Contact Us" /></button>
         </div>
 
-        <div className="mt-20 mb-20 flex ibm-plex-serif-semibold text-[18px]">
+        <div className="mt-28 mb-20 flex ibm-plex-serif-semibold text-[18px]">
           <img className="w-[80px]" src="dotTCA.svg" alt="The Creative Authority" />
           <p className="ml-12 mt-1">Careers</p>
           <p className="ml-12 mt-1">Contact Us</p>
