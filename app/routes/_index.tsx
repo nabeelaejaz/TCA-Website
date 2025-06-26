@@ -66,7 +66,7 @@ export default function Index() {
           </div>         
         </div>
 
-        <div className="flex lg:mt-28 md:mt-24 lg:ml-8">
+        <div className="flex lg:mt-28 md:mt-20 lg:ml-8">
           <div className="ibm-plex-sans-regular text-[24px] w-[50%] mr-4 lg:leading-[36px] md:leading-[32px]">
             <p className="ibm-plex-serif-semibold text-[32px] mb-4 md:leading-[36px]">Shopify Migration Services</p>
 
@@ -77,7 +77,7 @@ export default function Index() {
           </div>
         </div>
 
-        <div className="flex lg:mt-28 md:mt-24 lg:ml-8">
+        <div className="flex lg:mt-28 md:mt-20 lg:ml-8">
           <div className="w-[50%] mr-4">
             <img src="instore.jpg" alt="Shopify Setup Displayed on Laptop" />
           </div>
@@ -88,7 +88,7 @@ export default function Index() {
           </div>         
         </div>
 
-        <div className="flex lg:mt-28 md:mt-24 lg:ml-8">
+        <div className="flex lg:mt-28 md:mt-20 lg:ml-8">
           <div className="ibm-plex-sans-regular text-[24px] w-[50%] mr-4 lg:leading-[36px] md:leading-[32px]">
             <p className="ibm-plex-serif-semibold text-[32px] mb-4">Shopify SEO</p>
 
@@ -99,7 +99,7 @@ export default function Index() {
           </div>
         </div>
 
-        <div className="flex lg:mt-28 md:mt-24 lg:ml-8">
+        <div className="flex lg:mt-28 md:mt-20 lg:ml-8">
           <div className="w-[50%] mr-4">
             <img src="production.jpg" alt="Shopify in Production" />
           </div>
@@ -114,7 +114,7 @@ export default function Index() {
           <img src="tap-and-beep.jpg" alt="Tap and Beep" />
         </div>
 
-        <div className="pl-24 pr-24 pt-16 text-[32px] ibm-plex-serif-regular lg:leading-[52px]">
+        <div className="pl-24 pr-24 pt-16 lg:text-[32px] md:text-[28px] ibm-plex-serif-regular lg:leading-[52px]">
           For e-commerce business owners, staying competitive goes beyond offering excellent products; it’s about delivering a superior shopping experience. Shopify users know that the key to enhancing their store lies in combining the right apps with custom Shopify theme development. These integration can elevate your store to the next level, improving customer usability and boosting your conversion rate.
         </div>
 
