@@ -66,11 +66,5 @@ body {
       [data-darkreader-mode="dynamic"] .cls-1 {
           stroke: white;
         }
-      [data-darkreader-mode="dynamic"] .st0 {
-          fill: #8c1c1c;
-        }
-      [data-darkreader-mode="dynamic"] .cls-2 {
-          fill: #8c1c1c;
-        }
       }
 }
