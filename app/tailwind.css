@@ -32,4 +32,39 @@ body {
   font-weight: 600;
   font-style: normal;
 }
+  .st0 {
+    fill: #8c1c1c;
+  }
+  .st1 {
+    fill: black; 
+  }
+
+  .cls-1 {
+        fill: none;
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 3px;
+      }
+
+  .cls-2 {
+    fill: #8c1c1c;
+  }
+  
+}
+
+@media screen {
+  @media (prefers-color-scheme: dark) { 
+      [data-darkreader-mode="dynamic"] .st1 {
+          fill: white;
+        }
+
+      [data-darkreader-mode="dynamic"] .cls-3 {
+          fill: white;
+        }
+
+      [data-darkreader-mode="dynamic"] .cls-1 {
+          stroke: white;
+        }
+      }
 }
