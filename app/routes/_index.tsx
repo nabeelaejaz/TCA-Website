@@ -1,6 +1,4 @@
 import type { MetaFunction } from "@remix-run/node";
-import { Link } from '@remix-run/react';
-
 
 export const meta: MetaFunction = () => {
   return [
@@ -46,7 +44,11 @@ export default function Index() {
           <p className="ibm-plex-serif-semibold lg:text-[52px] md:text-[42px] text-[20px] text-center lg:mt-16 md:mt-12 mt-6 lg:leading-[66px] md:leading-[54px]">Pakistan's Premium Shopify App<br></br>Development & Design Agency</p>
         </div>
 
-        <div className="md:flex lg:mt-20 md:mt-16 mt-6 lg:ml-8">
+        <div className="md:flex md:flex-row-reverse lg:mt-20 md:mt-16 mt-6 lg:ml-8">
+          <div className="md:w-[50%] md:ml-4 md:p-2 p-4 md:mt-0 mt-4">
+            <img src="heart.jpg" alt="We grow together" />
+          </div>
+          
           <div className="ibm-plex-sans-regular md:text-[24px] text-[18px] md:w-[50%] mr-4 lg:leading-[36px] md:leading-[32px] leading-[28px]">
             We craft exceptional commerce through thoughtful design and user experience (UX), supporting both new Brand launches as well as existing website optimisation.
 
@@ -54,9 +56,7 @@ export default function Index() {
 
             We specialise in crafting compelling customer journey experiences for your website, designed to build credibility and drive conversions. By focusing on intuitive navigation and personalised touchpoints, we ensure that every interaction with your brand is memorable and effective, leading to increased trust and successful outcomes.
           </div>
-          <div className="md:w-[50%] md:ml-4 md:p-2 p-4 md:mt-0 mt-4">
-            <img src="heart.jpg" alt="We grow together" />
-          </div>
+          
         </div>
 
         <div className="lg:mt-32 md:mt-16 mt-10 lg:ml-8">
@@ -68,21 +68,25 @@ export default function Index() {
           <p className="ibm-plex-sans-regular lg:text-[36px] md:text-[32px] text-[18px]">Our Development Services Include:</p>
         </div>
 
-        <div className="md:flex lg:mt-28 md:mt-24 mt-12 lg:ml-8">
+        <div className="md:flex md:flex-row-reverse fl lg:mt-28 md:mt-24 mt-12 lg:ml-8">
+          <div className="md:w-[50%] md:ml-4 md:p-2 p-4 md:mt-0 mt-4">
+            <img src="shopify-setup.jpg" alt="Shopify Setup Displayed on Laptop" />
+          </div>
+          
           <div className="ibm-plex-sans-regular md:text-[24px] text-[18px] md:w-[50%] mr-4 lg:leading-[36px] md:leading-[32px] leading-[28px]">
             <p className="ibm-plex-serif-semibold md:text-[32px] text-[20px] mb-4">Shopify Store Set-up</p>
 
             Our experts will build your Shopify store from the scratch and make it up and running in no time. Initial store set-up includes creating the storefront with unique designs, developing product pages and listing products, adding initial layouts, and Shopify cart customisation.
           </div>
-          <div className="md:w-[50%] md:ml-4 md:p-2 p-4 md:mt-0 mt-4">
-            <img src="shopify-setup.jpg" alt="Shopify Setup Displayed on Laptop" />
-          </div>
+          
         </div>
 
         <div className="md:flex lg:mt-28 md:mt-20 mt-12 lg:ml-8">
           <div className="md:w-[50%] md:mr-4 md:p-2 p-4">
             <img src="alesia.jpg" alt="Shopify Setup Displayed on Laptop" />
           </div>
+
+          
           <div className="ibm-plex-sans-regular md:text-[24px] text-[18px] md:w-[50%] md:ml-4 lg:leading-[36px] md:leading-[32px] leading-[28px]">
             <p className="ibm-plex-serif-semibold md:text-[32px] text-[20px] mb-4 md:leading-[36px]">Shopify Theme Customisation</p>
 
@@ -90,15 +94,17 @@ export default function Index() {
           </div>         
         </div>
 
-        <div className="md:flex lg:mt-28 md:mt-20 mt-12 lg:ml-8">
+        <div className="md:flex md:flex-row-reverse lg:mt-28 md:mt-20 mt-12 lg:ml-8">
+          <div className="md:w-[50%] md:ml-4 md:p-2 p-4">
+            <img src="teamwork.jpg" alt="Shopify Setup Displayed on Laptop" />
+          </div>
+          
           <div className="ibm-plex-sans-regular md:text-[24px] text-[20px] md:w-[50%] mr-4 lg:leading-[36px] md:leading-[32px] leading-[28px]">
             <p className="ibm-plex-serif-semibold md:text-[32px] text-[20px] mb-4 md:leading-[36px]">Shopify Migration Services</p>
 
             Shopify facilitates its customers to carry their online store data from anywhere on Shopify. If you started your online journey at some other business platform but now want to shift to Shopify, we are here to do it for you. Our developers have migrated a countless number of stores onto Shopify without any hassle. Be it Wordpress, Magento, or any other site, we will safely and smoothly migrate your online store to Shopify in a short time span.
           </div>
-          <div className="md:w-[50%] md:ml-4 md:p-2 p-4">
-            <img src="teamwork.jpg" alt="Shopify Setup Displayed on Laptop" />
-          </div>
+          
         </div>
 
         <div className="md:flex lg:mt-28 md:mt-20 lg:ml-8">
@@ -112,15 +118,17 @@ export default function Index() {
           </div>         
         </div>
 
-        <div className="md:flex lg:mt-28 md:mt-20 mt-12 lg:ml-8">
+        <div className="md:flex md:flex-row-reverse lg:mt-28 md:mt-20 mt-12 lg:ml-8">
+          <div className="md:w-[50%] md:ml-4 md:p-2 p-4">
+            <img src="ShopifySEO.jpg" alt="Woman Searching on her mobile" />
+          </div>
+          
           <div className="ibm-plex-sans-regular md:text-[24px] text-[18px] md:w-[50%] mr-4 lg:leading-[36px] md:leading-[32px] leading-[28px]">
             <p className="ibm-plex-serif-semibold md:text-[32px] text-[20px] mb-4">Shopify SEO</p>
 
             SEO is an integral part of any website development plan. We have SEO experts who will do thorough market research to devise an efficient SEO strategy for your Shopify store. Our SEO optimisation techniques hold the potential to take your store to new heights of success in terms of conversion and sales.
           </div>
-          <div className="md:w-[50%] md:ml-4 md:p-2 p-4">
-            <img src="ShopifySEO.jpg" alt="Woman Searching on her mobile" />
-          </div>
+          
         </div>
 
         <div className="md:flex lg:mt-28 md:mt-20 lg:ml-8">
