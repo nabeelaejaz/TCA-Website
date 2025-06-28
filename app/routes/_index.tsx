@@ -107,12 +107,12 @@ export default function Index() {
           
         </div>
 
-        <div className="md:flex lg:mt-28 md:mt-20 lg:ml-8">
+        <div className="md:flex lg:mt-28 md:mt-20 mt-12 lg:ml-8">
           <div className="md:w-[50%] md:mr-4 md:p-2 p-4">
             <img src="instore.jpg" alt="Shopify Setup Displayed on Laptop" />
           </div>
-          <div className="ibm-plex-sans-regular md:text-[24px] text-[18px] md:w-[50%] md:ml-4 lg:leading-[36px] md:leading-[32px] leading-[28px]">
-            <p className="ibm-plex-serif-semibold md:text-[32px] text-[20px] mb-4 md:leading-[36px] leading-[28px]">Shopify Integration Services</p>
+          <div className="ibm-plex-sans-regular md:text-[24px] text-[20px] md:w-[50%] md:ml-4 lg:leading-[36px] md:leading-[32px] leading-[28px]">
+            <p className="ibm-plex-serif-semibold md:text-[32px] text-[20px] mb-4 md:leading-[36px]">Shopify Integration Services</p>
 
             We will integrate any third-party feature of your choice into your Shopify store in order to add custom functionality. Our team of developers aims to add maximum value to your Shopify store in order to make it versatile and fully functional.
           </div>         
@@ -131,7 +131,7 @@ export default function Index() {
           
         </div>
 
-        <div className="md:flex lg:mt-28 md:mt-20 lg:ml-8">
+        <div className="md:flex lg:mt-28 md:mt-20 mt-12 lg:ml-8">
           <div className="md:w-[50%] md:mr-4 md:p-2 p-4">
             <img src="production.jpg" alt="Shopify in Production" />
           </div>
@@ -146,7 +146,7 @@ export default function Index() {
           <img src="tap-and-beep.jpg" alt="Tap and Beep" />
         </div>
 
-        <div className="md:pl-24 pl-4 md:pr-24 pr-8 pt-16 lg:text-[32px] md:text-[28px] text-[20px] ibm-plex-serif-regular lg:leading-[52px]">
+        <div className="md:pl-24 pl-4 md:pr-24 pr-8 md:pt-16 pt-8 lg:text-[32px] md:text-[28px] text-[20px] ibm-plex-serif-regular lg:leading-[52px]">
           For e-commerce business owners, staying competitive goes beyond offering excellent products; it’s about delivering a superior shopping experience. Shopify users know that the key to enhancing their store lies in combining the right apps with custom Shopify theme development. These integration can elevate your store to the next level, improving customer usability and boosting your conversion rate.
         </div>
 
