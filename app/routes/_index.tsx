@@ -38,7 +38,7 @@ export default function Index() {
 </svg>
         </div>
         <div className="lg:ml-8 mt-20">
-          <img src="woman-stands.jpg" alt="Woman Stands with her arm folded in a store" />
+          <img src="woman-stands.webp" alt="Woman Stands with her arm folded in a store" />
         </div>
         <div>
           <p className="ibm-plex-serif-semibold lg:text-[52px] md:text-[42px] text-[20px] text-center lg:mt-16 md:mt-12 mt-6 lg:leading-[66px] md:leading-[54px]">Pakistan's Premium Shopify App<br></br>Development & Design Agency</p>
@@ -46,7 +46,7 @@ export default function Index() {
 
         <div className="md:flex md:flex-row-reverse lg:mt-20 md:mt-16 mt-6 lg:ml-8">
           <div className="md:w-[50%] md:ml-4 md:p-2 p-4 md:mt-0 mt-4">
-            <img src="heart.jpg" alt="We grow together" />
+            <img src="heart.webp" alt="We grow together" />
           </div>
           
           <div className="ibm-plex-sans-regular md:text-[24px] text-[18px] md:w-[50%] mr-4 lg:leading-[36px] md:leading-[32px] leading-[28px]">
@@ -60,7 +60,7 @@ export default function Index() {
         </div>
 
         <div className="lg:mt-32 md:mt-16 mt-10 lg:ml-8">
-          <img src="store-scanner.jpg" alt="Store Scanner" />
+          <img src="store-scanner.webp" alt="Store Scanner" />
         </div>
 
         <div className="ibm-plex-serif-semibold lg:text-[52px] md:text-[42px] text-[20px] text-center lg:mt-20 md:mt-16 mt-8">
@@ -70,7 +70,7 @@ export default function Index() {
 
         <div className="md:flex md:flex-row-reverse fl lg:mt-28 md:mt-24 mt-12 lg:ml-8">
           <div className="md:w-[50%] md:ml-4 md:p-2 p-4 md:mt-0 mt-4">
-            <img src="shopify-setup.jpg" alt="Shopify Setup Displayed on Laptop" />
+            <img src="shopify-setup.webp" alt="Shopify Setup Displayed on Laptop" />
           </div>
           
           <div className="ibm-plex-sans-regular md:text-[24px] text-[18px] md:w-[50%] mr-4 lg:leading-[36px] md:leading-[32px] leading-[28px]">
@@ -83,7 +83,7 @@ export default function Index() {
 
         <div className="md:flex lg:mt-28 md:mt-20 mt-12 lg:ml-8">
           <div className="md:w-[50%] md:mr-4 md:p-2 p-4">
-            <img src="alesia.jpg" alt="Shopify Setup Displayed on Laptop" />
+            <img src="alesia.webp" alt="Shopify Setup Displayed on Laptop" />
           </div>
 
           
@@ -96,7 +96,7 @@ export default function Index() {
 
         <div className="md:flex md:flex-row-reverse lg:mt-28 md:mt-20 mt-12 lg:ml-8">
           <div className="md:w-[50%] md:ml-4 md:p-2 p-4">
-            <img src="teamwork.jpg" alt="Shopify Setup Displayed on Laptop" />
+            <img src="teamwork.webp" alt="Shopify Setup Displayed on Laptop" />
           </div>
           
           <div className="ibm-plex-sans-regular md:text-[24px] text-[20px] md:w-[50%] mr-4 lg:leading-[36px] md:leading-[32px] leading-[28px]">
@@ -109,7 +109,7 @@ export default function Index() {
 
         <div className="md:flex lg:mt-28 md:mt-20 mt-12 lg:ml-8">
           <div className="md:w-[50%] md:mr-4 md:p-2 p-4">
-            <img src="instore.jpg" alt="Shopify Setup Displayed on Laptop" />
+            <img src="instore.webp" alt="Shopify Setup Displayed on Laptop" />
           </div>
           <div className="ibm-plex-sans-regular md:text-[24px] text-[20px] md:w-[50%] md:ml-4 lg:leading-[36px] md:leading-[32px] leading-[28px]">
             <p className="ibm-plex-serif-semibold md:text-[32px] text-[20px] mb-4 md:leading-[36px]">Shopify Integration Services</p>
@@ -120,7 +120,7 @@ export default function Index() {
 
         <div className="md:flex md:flex-row-reverse lg:mt-28 md:mt-20 mt-12 lg:ml-8">
           <div className="md:w-[50%] md:ml-4 md:p-2 p-4">
-            <img src="ShopifySEO.jpg" alt="Woman Searching on her mobile" />
+            <img src="ShopifySEO.webp" alt="Woman Searching on her mobile" />
           </div>
           
           <div className="ibm-plex-sans-regular md:text-[24px] text-[18px] md:w-[50%] mr-4 lg:leading-[36px] md:leading-[32px] leading-[28px]">
@@ -133,7 +133,7 @@ export default function Index() {
 
         <div className="md:flex lg:mt-28 md:mt-20 mt-12 lg:ml-8">
           <div className="md:w-[50%] md:mr-4 md:p-2 p-4">
-            <img src="production.jpg" alt="Shopify in Production" />
+            <img src="production.webp" alt="Shopify in Production" />
           </div>
           <div className="ibm-plex-sans-regular md:text-[24px] text-[18px] md:w-[50%] md:ml-4 lg:leading-[36px] md:leading-[32px] leading-[28px]">
             <p className="ibm-plex-serif-semibold md:text-[32px] text-[20px] mb-4 md:leading-[36px] leadind-[28px]">Updates and Maintenance</p>
@@ -143,7 +143,7 @@ export default function Index() {
         </div>
 
         <div className="lg:mt-36 md:mt-28 mt-16 lg:ml-8">
-          <img src="tap-and-beep.jpg" alt="Tap and Beep" />
+          <img src="tap-and-beep.webp" alt="Tap and Beep" />
         </div>
 
         <div className="md:pl-24 pl-4 md:pr-24 pr-8 md:pt-16 pt-8 lg:text-[32px] md:text-[28px] text-[20px] ibm-plex-serif-regular lg:leading-[52px]">
@@ -156,11 +156,11 @@ export default function Index() {
 
         <div className="flex mt-12 justify-center">
           <div className="lg:w-[350px] md:w-[260px] md:mr-8 mr-2">
-            <img src="directpurchase.jpg" alt="Online Transaction" />
+            <img src="directpurchase.webp" alt="Online Transaction" />
             <p className="ibm-plex-sans-medium md:text-[28px] text-[20px] text-center mt-4">D2C</p>
           </div>
           <div className="lg:w-[350px] md:w-[260px] md:ml-8 ml-2">
-            <img src="customersupport.jpg" alt="Customer Support" />
+            <img src="customersupport.webp" alt="Customer Support" />
             <p className="ibm-plex-sans-medium md:text-[28px] text-[20px] text-center mt-4">B2B</p>
           </div>
         </div>
