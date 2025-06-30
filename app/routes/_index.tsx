@@ -127,7 +127,7 @@ export default function Index() {
         </div>
 
         <div className="md:pl-24 pl-4 md:pr-24 pr-8 md:pt-16 pt-8 lg:text-[32px] md:text-[28px] text-[20px] ibm-plex-serif-regular lg:leading-[52px]">
-          For e-commerce business owners, staying competitive goes beyond offering excellent products; it’s about delivering a superior shopping experience. Shopify users know that the key to enhancing their store lies in combining the right apps with custom Shopify theme development. These integration can elevate your store to the next level, improving customer usability and boosting your conversion rate.
+          For e-commerce business owners, staying competitive goes beyond offering excellent products; it’s about delivering a superior shopping experience. Shopify users know that the key to enhancing their store lies in combining the right apps with custom Shopify theme development. These integration can elevate your store to the next level, improving customer usability & boosting your conversion rate.
         </div>
 
         <div className="mt-16 lg:pl-24 lg:pr-48 md:pl-20 md:pr-32 ibm-plex-sans-medium md:text-[32px] text-[24px] lg:leading-[52px] text-center">
@@ -151,6 +151,7 @@ export default function Index() {
 
         <div className="md:mt-28 mb-20 flex ibm-plex-serif-semibold md:text-[18px]">
           <DotTCA />
+          <p className="md:visible collapse md:ml-12 ml-8 mt-1"><a href="mailto:hello@tca.com.pk">hello@tca.com.pk</a></p>
           <p className="md:ml-12 ml-8 mt-1"><Link to="/careers">Careers</Link></p>
           <p className="md:ml-12 ml-8 mt-1"><Link to="/contact">Contact Us</Link></p>
         </div>
