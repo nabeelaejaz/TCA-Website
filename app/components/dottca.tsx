@@ -1,6 +1,6 @@
 export default function DotTCA() {
     return (
-        <svg className="w-[80px]" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60.1 28.08">
+        <svg className="md:w-[80px] w-[72px]" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60.1 28.08">
             <circle className="cls-2" cx="11.45" cy="14.35" r="5.21"/>
             <g>
                 <path className="cls-3" d="M20.53,7.59h7.49v1.14c0,.82-.43,1.23-1.28,1.23h-1.91v10.64h-1.09c-.86,0-1.28-.41-1.28-1.23v-9.41h-3.19v-1.14c0-.82.43-1.23,1.28-1.23Z"/>
