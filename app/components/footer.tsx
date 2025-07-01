@@ -15,11 +15,10 @@ export default function Footer() {
 
             </div>
             
-            <div className="md:mt-20 mt-10 mb-20 flex ibm-plex-serif-semibold md:text-[18px]">
+            <div className="md:mt-12 mt-10 mb-14 flex ibm-plex-serif-semibold md:text-[18px]">
             <DotTCA />
             <p className="ml-4 mt-1 md:text-[20px] text-[16px]">© 2025. All Rights Reserved.</p>
             </div>
-            <hr className="md:w-[480px] h-[1px] md:mt-[-42px] mt-[-50px] bg-[#5E5E5E] border-0 md:mb-24 mb-12" />
             
         </div>
     );

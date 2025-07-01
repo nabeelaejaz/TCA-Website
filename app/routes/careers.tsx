@@ -1,3 +1,10 @@
+import Footer from "~/components/footer"
+
 export default function Careers() {
-  return <h1>Hello World</h1>;
+  return (
+    <div>
+      <h1>Hello World</h1>
+      <Footer />
+    </div>
+  );
 }

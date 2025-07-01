@@ -1,6 +1,7 @@
 import type { MetaFunction } from "@remix-run/node";
 import TcaLogo from "~/components/tcalogo";
-import Footer from "~/components/footer"
+import Header from "~/components/header";
+import Footer from "~/components/footer";
 import { Link } from "@remix-run/react";
 
 export const meta: MetaFunction = () => {
@@ -14,9 +15,7 @@ export default function Index() {
   return (
     <div className="lg:w-[1200px] md:w-[750px] w-[320px] m-auto">
       
-        <div className="lg:ml-8 lg:w-48 md:w-40 w-32 lg:h-20 md:h-12 h-6">
-          <TcaLogo /> 
-        </div>
+        <Header />
         <div className="lg:ml-8 mt-20">
           <img className="imgresponsive" src="woman-stands.webp" alt="Woman Stands with her arm folded in a store" />
         </div>
