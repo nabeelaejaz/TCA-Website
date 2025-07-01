@@ -16,7 +16,7 @@ export default function Footer() {
             </div>
             
             <div className="md:mt-12 mt-10 mb-14 flex ibm-plex-serif-semibold md:text-[18px]">
-            <DotTCA />
+            <Link to="/"><DotTCA /></Link>
             <p className="ml-4 mt-1 md:text-[20px] text-[16px]">© 2025. All Rights Reserved.</p>
             </div>
             
