@@ -52,7 +52,130 @@ body {
   .cls-2 {
     fill: #8c1c1c;
   }
-  
+  .carboninput {
+    background-color: #F4F4F4;
+    height: 60px;
+    width: 90%;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 24px;
+    padding: 20px;
+    border-bottom: 1px solid black;
+  }
+  .carbonlabel {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    margin-bottom: 8px;
+    margin-top: 28px;
+  }
+  .carbontextbox {
+    height: 272px;
+  }
+  .carbonbutton {
+    background-color: #1E40AF;
+    color: white;
+    width: 240px;
+    height: 120px;
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 22px;
+    margin-top: 28px;
+    margin-right: 22px;
+  }
+  .carbonreset {
+    background-color: #999999 !important;
+    width: 200px !important;
+  }
+
+}
+
+@media (min-width: 768px) {
+  body {
+    .carbonlabel {
+      font-family: "IBM Plex Sans", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 16px;
+      margin-bottom: 8px;
+      margin-top: 20px;
+    }
+    .carboninput {
+    background-color: #F4F4F4;
+    height: 56px;
+    width: 88%;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    padding: 16px;
+    border-bottom: 1px solid black;
+    }
+    .carbontextbox {
+      height: 260px;
+    }
+    .carbonbutton {
+    background-color: #1E40AF;
+    color: white;
+    width: 200px;
+    height: 104px;
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 22px;
+    margin-top: 22px;
+    margin-right: 16px;
+  }
+  .carbonreset {
+    background-color: #999999 !important;
+    width: 160px !important;
+  }
+  }
+}
+@media (max-width: 640px) {
+  body {
+    .carbonlabel {
+      font-family: "IBM Plex Sans", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 16px;
+      margin-bottom: 8px;
+      margin-top: 20px;
+    }
+    .carboninput {
+    background-color: #F4F4F4;
+    height: 56px;
+    width: 100%;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    padding: 16px;
+    border-bottom: 1px solid black;
+    }
+    .carbontextbox {
+      height: 260px;
+    }
+    .carbonbutton {
+    background-color: #1E40AF;
+    color: white;
+    width: 140px;
+    height: 86px;
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 22px;
+    margin-top: 22px;
+    margin-right: 16px;
+  }
+  .carbonreset {
+    background-color: #999999 !important;
+    width: 100px !important;
+  }
+  }
 }
 
 @media screen {
