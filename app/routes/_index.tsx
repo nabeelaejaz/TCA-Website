@@ -139,7 +139,7 @@ export default function Index() {
           </div>
         </div>
 
-        <div className="md:mt-20 mt-12 mb-12 justify-center flex">
+        <div className="md:mt-12 mt-12 mb-12 justify-center flex">
           <Link to="/contact" className="bg-blue-800 text-white p-[50px] md:w-[460px] w-[300px] md:h-[240px] h-[200px]"><p className="mt-[-34px] md:ml-[-24px] ml-[-32px] ibm-plex-sans-semibold md:text-[38px] text-[26px]">GOT A PROJECT?</p><p className="md:ml-[-20px] ml-[-30px] md:mt-[-6px] mt-[-4px] ibm-plex-sans-regular md:text-[26px] text-[18px]">Speak With Our Experts</p><img className="size-14 md:mt-16 mt-14 md:ml-80 ml-44" src="arrow--right.svg" alt="Contact Us" /></Link>
         </div>
 
