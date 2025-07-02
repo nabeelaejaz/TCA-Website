@@ -17,7 +17,7 @@ export default function Footer() {
                             <Link to="/contact"><div className="flex ml-[48px] pt-[10px]"><img className="md:w-10 w-8" src="phrase-sentiment.svg" alt="Contact Us" /><p className="ml-[16px] md:text-[24px] text-[20px]">Contact Us</p></div></Link>
                         </div>
                         <div className="w-[100%]">
-                                <a href="#header"><img className="md:w-24 w-12 mx-[84%] md:mt-[300px] mt-14 mb-0" src="arrow--up.svg" alt="Goto Top" /></a>    
+                                <a href="#header"><img className="lg:w-24 md:w-20 w-12 lg:mx-[84%] md:mx-[68%] mx-[84%] md:mt-[300px] mt-14 mb-0" src="arrow--up.svg" alt="Goto Top" /></a>    
                         </div>
                     </div>                
              </div>

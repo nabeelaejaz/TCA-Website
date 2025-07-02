@@ -12,7 +12,7 @@ export default function Index() {
   return (
     <div>
         <div className="lg:ml-8 mt-20">
-          <img className="imgresponsive" src="woman-stands.webp" alt="Woman Stands with her arm folded in a store" />
+          <img src="woman-stands.webp" width="1168px" height="570px" alt="Woman Stands with her arm folded in a store" />
         </div>
         <div>
           <p className="ibm-plex-serif-semibold lg:text-[52px] md:text-[42px] text-[20px] text-center lg:mt-16 md:mt-12 mt-6 lg:leading-[66px] md:leading-[54px]">Pakistan's Premium Shopify App<br></br>Development & Design Agency</p>
@@ -20,7 +20,7 @@ export default function Index() {
 
         <div className="md:flex md:flex-row-reverse lg:mt-20 md:mt-16 mt-6 lg:ml-8">
           <div className="md:w-[50%] md:ml-4 md:p-2 p-4 md:mt-0 mt-4">
-            <img className="imgresponsive" src="heart.webp" alt="We grow together" />
+            <img src="heart.webp" width="552px" height="421px" alt="We grow together" />
           </div>
           
           <div className="ibm-plex-sans-regular md:text-[24px] text-[18px] md:w-[50%] mr-4 lg:leading-[36px] md:leading-[32px] leading-[28px]">

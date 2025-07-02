@@ -8,10 +8,7 @@
 html,
 body {
   scroll-behavior: smooth;
-  .imgresponsive {
-    width: 100%;
-    height: auto;
-  }
+
   .ibm-plex-serif-semibold {
   font-family: "IBM Plex Serif", serif;
   font-weight: 500;
