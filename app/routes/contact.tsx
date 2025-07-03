@@ -4,7 +4,7 @@ export default function Contact() {
   return (
     <div className="md:flex md:flex-row-reverse lg:ml-8 mt-20">
       <div className="md:w-[50%]">
-        <img src="/payphone.webp" width="375px" height="380px" alt="payphone on the wall" />
+        <img src="/payphone.webp" alt="payphone on the wall" />
       </div>
       <div className="md:w-[50%]">
           <Form className="grid" action="" method="post">
