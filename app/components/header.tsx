@@ -10,7 +10,7 @@ export default function Header() {
               </div>
           </div>
           <div className="w-[50%]">
-            <a href="#footer"><img className="lg:w-[64px] md:w-[52px] w-[44px] md:mx-[88%] mx-[72%] lg:mt-[56px] md:mt-[34px] mt-[40px] md:mb-[-100px] mb-[-600px]" src="ibm-watsonx--assistant.svg" alt="Talk to us" /></a>
+            <a href="#footer"><img className="lg:w-[64px] md:w-[52px] w-[44px] md:mx-[88%] mx-[72%] lg:mt-[68px] md:mt-[34px] mt-[40px] md:mb-[-100px] mb-[-600px]" src="ibm-watsonx--assistant.svg" alt="Talk to us" /></a>
           </div>
         </div>
     );
