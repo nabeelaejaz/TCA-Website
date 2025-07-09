@@ -7,13 +7,13 @@ export default function Contact() {
         <img src="/payphone.webp" alt="payphone on the wall" />
       </div>
       <div className="md:w-[50%]">
-          <Form className="grid" netlify name="contact" method="post">
+          <Form className="grid" name="contact" method="post" netlify>
             <label className="carbonlabel">Name</label>
-            <input className="carboninput" name="description" placeholder="Type your name" type="text" />
+            <input className="carboninput" name="name" placeholder="Type your name" type="text" />
             <label className="carbonlabel">Email</label>
-            <input className="carboninput" name="description" type="text" placeholder="Type your email address" />
+            <input className="carboninput" name="email" type="text" placeholder="Type your email address" />
             <label className="carbonlabel">Message</label>
-            <textarea className="carboninput carbontextbox" name="description" placeholder="Type your message here" type="text" />
+            <textarea className="carboninput carbontextbox" name="message" placeholder="Type your message here" type="text" />
             <div className="flex">
               <button className="carbonbutton">Submit</button>
               <button className="carbonbutton carbonreset" type="reset">Reset</button>
