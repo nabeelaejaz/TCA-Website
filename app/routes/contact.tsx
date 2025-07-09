@@ -7,7 +7,7 @@ export default function Contact() {
         <img src="/payphone.webp" alt="payphone on the wall" />
       </div>
       <div className="md:w-[50%]">
-          <Form className="grid" name="contact" method="post" action="/success" data-netlify="true" data-discover="true">
+          <form className="grid" name="contact" method="post" action="/success" data-netlify="true" data-discover="true">
             <label className="carbonlabel">Name</label>
             <input className="carboninput" name="name" placeholder="Type your name" type="text" />
             <label className="carbonlabel">Email</label>
@@ -18,7 +18,7 @@ export default function Contact() {
               <button className="carbonbutton">Submit</button>
               <button className="carbonbutton carbonreset" type="reset">Reset</button>
             </div>
-          </Form>
+          </form>
       </div>
     </div>
   );
