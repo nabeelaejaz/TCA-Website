@@ -1,4 +1,3 @@
-import { Form } from "@remix-run/react";
 import React from 'react';
 
 export default function Contact() {
@@ -20,7 +19,7 @@ export default function Contact() {
 
     if (data.success) {
       setResult("Form Submitted Successfully");
-      event.target.reset();
+      window.location.href = "https://tca.com.pk/success";
     } else {
       console.log("Error", data);
       setResult(data.message);
