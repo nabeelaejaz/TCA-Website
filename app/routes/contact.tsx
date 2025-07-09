@@ -19,7 +19,7 @@ export default function Contact() {
 
     if (data.success) {
       setResult("Form Submitted Successfully");
-      window.location.href = "https://tca.com.pk/success";
+      window.location.href = "https://tca.com.pk/success#header";
     } else {
       console.log("Error", data);
       setResult(data.message);
@@ -34,17 +34,19 @@ export default function Contact() {
       <div className="md:w-[50%]">
           <form className="grid" onSubmit={onSubmit}>
             <label className="carbonlabel">Name</label>
-            <input className="carboninput" name="name" placeholder="Type your name" type="text" />
+            <input className="carboninput" name="name" placeholder="Type your name" type="text" required />
             <label className="carbonlabel">Email</label>
-            <input className="carboninput" name="email" type="email" placeholder="Type your email address" />
+            <input className="carboninput" name="email" type="email" placeholder="Type your email address" required />
             <label className="carbonlabel">Message</label>
-            <textarea className="carboninput carbontextbox" name="message" placeholder="Type your message here" />
+            <textarea className="carboninput carbontextbox" name="message" placeholder="Type your message here" required />
             <div className="flex">
               <button className="carbonbutton">Submit</button>
               <button className="carbonbutton carbonreset" type="reset">Reset</button>
             </div>
           </form>
-          <span>{result}</span>
+          <div className='mt-4 ibm-plex-sans-regular text-[24px] text-red-700'>
+             <span>{result}</span>
+          </div>
       </div>
     </div>
   );
