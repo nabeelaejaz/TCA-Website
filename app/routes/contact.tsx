@@ -8,13 +8,13 @@ export default function Contact() {
       </div>
       <div className="md:w-[50%]">
           <Form className="grid" name="contact" netlify-honeypot="bot-field"
-                    action="?formSubmit=success" data-netlify="true">
+                    action="/success" data-netlify="true">
             <label className="carbonlabel">Name</label>
             <input className="carboninput" name="name" placeholder="Type your name" type="text" />
             <label className="carbonlabel">Email</label>
-            <input className="carboninput" name="email" type="text" placeholder="Type your email address" />
+            <input className="carboninput" name="email" type="email" placeholder="Type your email address" />
             <label className="carbonlabel">Message</label>
-            <textarea className="carboninput carbontextbox" name="message" placeholder="Type your message here" type="text" />
+            <textarea className="carboninput carbontextbox" name="message" placeholder="Type your message here" />
             <div className="flex">
               <button className="carbonbutton">Submit</button>
               <button className="carbonbutton carbonreset" type="reset">Reset</button>
