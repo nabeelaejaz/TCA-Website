@@ -1,4 +1,5 @@
 import { Form } from "@remix-run/react";
+import React from 'react';
 
 export default function Contact() {
   const [result, setResult] = React.useState("");
