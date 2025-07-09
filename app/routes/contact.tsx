@@ -7,8 +7,8 @@ export default function Contact() {
         <img src="/payphone.webp" alt="payphone on the wall" />
       </div>
       <div className="md:w-[50%]">
-          <form className="grid" name="contactform" method="POST" netlify-honeypot="bot-field"
-                    action="/success" data-netlify="true">
+          <Form className="grid" name="contact" method="post" netlify-honeypot="bot-field"
+                    action="/success" netlify>
             <label className="carbonlabel">Name</label>
             <input className="carboninput" name="name" placeholder="Type your name" type="text" />
             <label className="carbonlabel">Email</label>
@@ -19,7 +19,7 @@ export default function Contact() {
               <button className="carbonbutton">Submit</button>
               <button className="carbonbutton carbonreset" type="reset">Reset</button>
             </div>
-          </form>
+          </Form>
       </div>
     </div>
   );
