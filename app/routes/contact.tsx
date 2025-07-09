@@ -7,7 +7,7 @@ export default function Contact() {
         <img src="/payphone.webp" alt="payphone on the wall" />
       </div>
       <div className="md:w-[50%]">
-          <Form className="grid" name="contact" method="post" netlify-honeypot="bot-field"
+          <Form className="grid" encType="multipart/form-data" name="contact" method="post" netlify-honeypot="bot-field"
                     action="/success" netlify>
             <label className="carbonlabel">Name</label>
             <input className="carboninput" name="name" placeholder="Type your name" type="text" />
