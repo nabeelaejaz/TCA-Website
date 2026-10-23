@@ -6,12 +6,17 @@ import Footer from "../components/Footer.astro";
 interface Props {
   title?: string;
   description?: string;
+  ogImage?: string;
 }
 
 const {
-  title = "The Creative Authority",
-  description = "Pakistans Premium Shopify App Development & Design Agency",
+  title = "The Creative Authority | Shopify App Development & Design Agency",
+  description = "Pakistan's Premium Shopify App Development & Design Agency",
+  ogImage = "/woman-stands.webp",
 } = Astro.props;
+
+const canonicalURL = new URL(Astro.url.pathname, Astro.site ?? "https://tca.com.pk");
+const socialImageURL = new URL(ogImage, Astro.site ?? "https://tca.com.pk");
 ---
 
 <!doctype html>
@@ -20,14 +25,41 @@ const {
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{title}</title>
-    {description && <meta name="description" content={description} />}
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonicalURL} />
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+
+    <!-- Open Graph / Social -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={canonicalURL} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={socialImageURL} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={socialImageURL} />
+
+    <!-- Non-blocking Google Fonts (only used weights: 300, 400, 500, 600) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600&family=IBM+Plex+Serif:wght@300;500;600&display=swap"
+    />
   </head>
   <body>
-    <div class="lg:w-[1200px] md:w-[750px] w-[320px] m-auto">
+    <div class="lg:w-[1200px] md:w-[750px] w-full max-w-[1200px] px-4 md:px-0 m-auto">
       <Header />
-      <slot />
+      <main>
+        <slot />
+      </main>
       <Footer />
     </div>
   </body>
 </html>
-

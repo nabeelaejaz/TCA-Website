@@ -1,15 +1,30 @@
 ---
+import { Image } from "astro:assets";
 import Layout from "../layouts/Layout.astro";
+import successImg from "../assets/success.webp";
 ---
 
-<Layout>
+<Layout
+  title="Message Sent | The Creative Authority"
+  description="Thank you for contacting The Creative Authority. We will get back to you soon."
+  ogImage="/success.webp"
+>
   <div class="md:flex md:flex-row-reverse lg:ml-8 mt-20">
     <div class="md:w-[50%]">
-      <img src="/success.webp" alt="Lets Talk" />
+      <Image
+        src={successImg}
+        width={708}
+        height={472}
+        loading="eager"
+        fetchpriority="high"
+        alt="Thank you for reaching out"
+      />
     </div>
     <div class="md:w-[50%]">
-      <p class="text-[24px] ibm-plex-sans-regular p-4">Contact form submitted successfully. We will be get back to you soon. Thank you for writing to us.</p>
+      <h1 class="sr-only">Contact Form Submitted</h1>
+      <p class="text-[24px] ibm-plex-sans-regular p-4">
+        Contact form submitted successfully. We will get back to you soon. Thank you for writing to us.
+      </p>
     </div>
   </div>
 </Layout>
-

@@ -1,15 +1,30 @@
 ---
+import { Image } from "astro:assets";
 import Layout from "../layouts/Layout.astro";
+import catImg from "../assets/cat.webp";
 ---
 
-<Layout>
+<Layout
+  title="Careers | The Creative Authority"
+  description="Join The Creative Authority team. Send your resume to careers@tca.com.pk."
+  ogImage="/cat.webp"
+>
   <div class="md:flex md:flex-row-reverse lg:ml-8 mt-20">
     <div class="md:w-[50%]">
-      <img src="/cat.webp" width="705pc" height="914px" alt="Cool Cat sitting on the desk" />
+      <Image
+        src={catImg}
+        width={705}
+        height={914}
+        loading="eager"
+        fetchpriority="high"
+        alt="Cool cat sitting on the desk"
+      />
     </div>
     <div class="md:w-[50%] mt-8">
-      <p class="ibm-plex-sans-regular text-[24px]">Thank you. Please send your resumes to careers@tca.com.pk </p>
+      <h1 class="sr-only">Careers at The Creative Authority</h1>
+      <p class="ibm-plex-sans-regular text-[24px]">
+        Thank you. Please send your resumes to <a class="underline" href="mailto:careers@tca.com.pk">careers@tca.com.pk</a>
+      </p>
     </div>
   </div>
 </Layout>
-
