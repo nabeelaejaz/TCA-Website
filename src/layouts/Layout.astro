@@ -1,0 +1,33 @@
+---
+import "../styles/tailwind.css";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+
+interface Props {
+  title?: string;
+  description?: string;
+}
+
+const {
+  title = "The Creative Authority",
+  description = "Pakistans Premium Shopify App Development & Design Agency",
+} = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    {description && <meta name="description" content={description} />}
+  </head>
+  <body>
+    <div class="lg:w-[1200px] md:w-[750px] w-[320px] m-auto">
+      <Header />
+      <slot />
+      <Footer />
+    </div>
+  </body>
+</html>
+
